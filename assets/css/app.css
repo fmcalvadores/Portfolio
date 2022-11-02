@@ -2,7 +2,10 @@ body
 {
     background-color: #fff;
     color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
+}
+.sub-text {
+  color: rgb(44, 228, 176);
 }
 .text-to-ellipsis {
     overflow: hidden;
@@ -17,8 +20,11 @@ body
     height: auto !important; /* real browsers */
     min-height: 680px; /* real browsers */;
     border-bottom: 1px solid rgba(187, 187, 187, 0.35);
+    
 }
-
+p {
+  text-align: justify;
+}
 
 .terminal-buttons {
     height: 10px;
