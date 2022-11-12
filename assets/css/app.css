@@ -1,11 +1,10 @@
 body
 {
     background-color: #fff;
-    /* background-color: #0a192f; */
     color: #000;
     height: auto; 
     min-height:700px; 
-    
+    overflow-x:hidden;
     margin:10px;
     font-family: sans-serif;
 }
@@ -14,10 +13,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-.sub-text {
-  color: rgb(44, 228, 176);
-}
 .text-to-ellipsis {
     overflow: hidden;
     display: -webkit-box;
@@ -29,8 +24,12 @@ html {
     /* border: 1px solid red; */
     position: relative; /* needed for footer positioning*/
     height: auto !important; /* real browsers */
-    min-height: 680px; /* real browsers */;
-    border-bottom: 1px solid rgba(187, 187, 187, 0.35);
+    min-height: 900px; /* real browsers */;
+    margin-top: 10px;
+    width: auto;
+    padding: 60px;
+
+    /* border-bottom: 1px solid rgba(187, 187, 187, 0.35); */
     
 }
 p {
