@@ -27,7 +27,7 @@ html {
     min-height: 900px; /* real browsers */;
     margin-top: 10px;
     width: auto;
-    padding: 60px;
+    padding: 250px;
 
     /* border-bottom: 1px solid rgba(187, 187, 187, 0.35); */
     
@@ -98,4 +98,10 @@ p {
   
   #myBtn:hover {
     background-color: rgb(33, 35, 54);
+  }
+
+  @media only screen and (max-width: 1200px) {
+  .section {
+    padding: 20px;
+    }
   }
