@@ -24,10 +24,10 @@ html {
     /* border: 1px solid red; */
     position: relative; /* needed for footer positioning*/
     height: auto !important; /* real browsers */
-    min-height: 900px; /* real browsers */;
+    min-height: 700px; /* real browsers */;
     margin-top: 10px;
     width: auto;
-    padding: 250px;
+    padding: 50px 250px 50px 250px;
 
     /* border-bottom: 1px solid rgba(187, 187, 187, 0.35); */
     
@@ -102,6 +102,7 @@ p {
 
   @media only screen and (max-width: 1200px) {
   .section {
-    padding: 20px;
+    padding: 25px;
+    height: auto;
     }
   }
